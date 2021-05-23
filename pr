@@ -1,0 +1,16 @@
+--1
+--SELECT title FROM movies WHERE year = 2008
+--2
+--SELECT birth AS 'EmmaStoneBirthYear' FROM people WHERE name = 'Emma Stone'
+--3
+--SELECT title FROM movies WHERE year >= 2018
+--4
+--SELECT COUNT(*) AS 'MoviesRating10' FROM ratings WHERE rating = 10
+--5 
+--SELECT title,year FROM movies WHERE title LIKE '%Harry Potter%'
+ --6
+ --SELECT AVG(rating) FROM ratings 
+ --JOIN movies ON movie_id = movies.id
+ --WHERE YEAR = 2012
+ --7
+ 
